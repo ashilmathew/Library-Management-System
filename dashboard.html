@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<title>Home</title>
+<!-- CSS Style Starting-->
+<style type="text/css">
+html, 
+body {
+height: 100%;
+}
+
+body {
+background-image: url(static-images/add-book.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+.logo{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+	font-size: 20px;
+	font-family: Copperplate, Papyrus, fantasy;
+	text-shadow: 0 0 3px #000000;
+}
+a { color: inherit;
+	text-decoration: none;}
+.add-books{
+	position: absolute;
+	top: 300px;
+	left: 790px;
+	font-size: 15px;
+	font-family: Comic Sans MS, Comic Sans;
+	text-shadow: 0 0 4px #000000;
+}
+.add-books-button{
+	border-radius: 12px;
+	}
+button:hover {
+  transform: scale(1.1);
+  
+}
+.view-books{
+	position: absolute;
+	top:300px;
+	right:170px;
+	font-size: 15px;
+	font-family: Comic Sans MS, Comic Sans;
+	text-shadow: 0 0 4px #000000;
+}
+.view-books-button{
+	border-radius: 12px;
+	}
+button:hover {
+  transform: scale(1.1);
+  
+}
+.logout{
+position: absolute;
+	top:20px;
+	right:30px;
+	font-size: 15px;
+	font-family: "Lucida Handwriting", cursive;
+	text-shadow: 0 0 3px #ffffff;
+}
+.logout-button{
+	border-radius: 12px;
+	opacity:35%;
+	}
+button:hover {
+  transform: scale(1.1);
+  
+}
+
+</style>
+<!-- CSS Style Ending-->
+
+
+<!-- Body Starting-->
+<body> 
+	<div class="logo">
+		<h1 style="color:white;"><a href="home.html">Library Management System</a></h1>
+	</div>
+	<div class="logout">
+		<button class="logout-button"> <a href="logout.php"><img src="static-images/logout.jpg" height ="30" width="30" /></a></button>
+	</div>
+	<div class="add-books">
+		<h1 style="color:white;">Add Books</h1>
+		<button class="add-books-button"> <a href="add-books.php"><img src="static-images/home-page-add-books.jpg" height ="200" width="200" /></a></button>
+	</div>
+	<div class="view-books">
+		<h1 style="color:white;">View Books</h1>
+		<button class="view-books-button"> <a href="view-books.php"><img src="static-images/home-page-view-books.jpg" height ="200" width="200" /></a></button>	
+	</div>
+</body> 
+<!-- Body Ending-->
+
+</html>
